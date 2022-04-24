@@ -1,0 +1,28 @@
+body {
+    background-color: cadetblue;
+}
+img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+}
+header {
+    color: white;
+    font: normal 20 Arial;
+    text-align: center;
+}
+footer {
+    color: white;
+    font: normal 20 Arial;
+    text-align: center;
+}
+section {
+    background-color: white;
+    color: black;
+    font: normal 20 Arial;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+}
