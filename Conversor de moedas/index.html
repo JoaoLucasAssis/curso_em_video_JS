@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Conversor de moedas</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  
+  <header>
+    <h1>Conversor de moedas</h1>
+  </header>
+
+  <section>
+    <div>
+      <p>Converter de: </p>
+      
+      <p>
+        <input type="radio" name='in' value='BRL' checked>BRL
+        <input type="radio" name='in' value='USD'>USD
+        <input type="radio" name='in' value='EUR'>EUR
+        <input type="radio" name='in' value='GBP'>GBP
+      </p>
+      
+      <p>Para: </p>
+      
+      <p>
+        <input type="radio" name='out' value='BRL'>BRL
+        <input type="radio" name='out' value='USD' checked>USD
+        <input type="radio" name='out' value='EUR'>EUR
+        <input type="radio" name='out' value='GBP'>GBP
+      </p>
+      
+      <p>Valor: <input type="number" id='quantia' value='10'></p>
+      
+    </div>
+    
+    <button onclick='converter()'>Converter</button>
+    
+    <div>
+      <p><span id='resultado'></span></p>
+    </div>
+  </section>
+  
+    <footer>
+      <p>@joaolucas_1717</p>
+    </footer>
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
